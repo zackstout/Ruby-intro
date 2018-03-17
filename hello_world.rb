@@ -17,6 +17,7 @@ puts 12.45.class
 puts "string".class
 
 # FILE HANDLING:
+# If file doesn't exist it will be created:
 # write_handler = File.new("yourSum.out", "w")
 #
 # write_handler.puts("text!").to_s
@@ -168,6 +169,12 @@ puts full.swapcase
 full_name = "     " + full
 
 full_name = full_name.lstrip
+
+
+
+
+# More string methods. At about 42 minutes, Arrays and Hashes (which are like Objects in javascript)
+# Then he gets into Enumerables, for which you have to import the module and define an "each" method inside your class.
 
 
 
